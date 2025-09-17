@@ -5,6 +5,11 @@ body {
   color: #222;
 }
 
+body.launch {
+  color: #222;
+  height: 100vh;
+}
+
 /* Center the content */
 .centered {
   display: flex;
@@ -12,7 +17,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgba(0,0,0,0.5); /* Optional: semi-transparent overlay for text readability */
 }
 
 /* Welcome text */
@@ -30,6 +34,9 @@ body {
   box-shadow: 0 2px 20px rgba(0,0,0,0.3);
   cursor: pointer;
   transition: transform 0.2s;
+}
+.welcome-img:hover {
+  transform: scale(1.05);
 }
 .welcome-img:hover {
   transform: scale(1.05);
